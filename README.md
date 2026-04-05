@@ -96,6 +96,7 @@ public class Main {
 git clone https://github.com/huangzuan/AutoUpdateModule.git
 cd AutoUpdateModule
 ./gradlew build
+```
 ---
 
 # AutoUpdateModule
