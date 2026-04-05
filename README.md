@@ -29,16 +29,16 @@ public class Main {
     public static void main(String[] args) {
         // 创建 Updater 对象
         Updater updater = new Updater(
-                "你的应用名称",       // 显示在更新提示框和 User-Agent
-                "当前版本号，例如 0.1", // 当前程序版本号
-                "你的 GitHub 仓库名" // 仓库名，例如 "NBTEditor"
+                "Your App Name",          // 应用名称
+                "0.1",                   // 当前版本号
+                "yourname/your-repo"     // GitHub 仓库，例如 "huangzuan/NBTEditor"
         );
 
         // 检查更新
         updater.checkUpdate();
 
         // 主程序逻辑
-        System.out.println("程序启动完成");
+        System.out.println("Application started");
     }
 }
 ```
@@ -113,16 +113,17 @@ import com.huangzuan.autoupdate.Updater;
 
 public class Main {
     public static void main(String[] args) {
-        // Create Updater instance
+        // 创建 Updater 对象
         Updater updater = new Updater(
-                "Your App Name",
-                "Current version e.g. 0.1",
-                "Your GitHub repo name"
+                "Your App Name",          //Application Name
+                "0.1",               //Current version number    
+                "yourname/your-repo"     //GitHub repositories, such as "huangzuan/NBTEditor"
         );
 
-        // Check for updates
+        // 检查更新
         updater.checkUpdate();
 
+        // 主程序逻辑
         System.out.println("Application started");
     }
 }
