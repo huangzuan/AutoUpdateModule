@@ -85,7 +85,18 @@ public class Main {
 * GitHub API 请求限制：60 次/小时
 * 可以修改 Updater 构造函数里的 appName，让提示框显示你的程序名
 
+---
 
+## 6 构建方法
+
+本项目提供源码，需要先构建生成 Jar 或 class 文件才能使用。
+
+### 使用 Gradle
+```bash
+git clone https://github.com/huangzuan/AutoUpdateModule.git
+cd AutoUpdateModule
+./gradlew build
+---
 
 # AutoUpdateModule
 
@@ -170,3 +181,14 @@ The module will:
 - Works on Windows, macOS, Linux
 - GitHub API limit: 60 requests/hour
 
+---
+
+## 6️⃣ Build Instructions
+
+This project provides the source code. You need to build it first to generate a Jar or class files before using the module.
+
+### Using Gradle
+```bash
+git clone https://github.com/huangzuan/AutoUpdateModule.git
+cd AutoUpdateModule
+./gradlew build
